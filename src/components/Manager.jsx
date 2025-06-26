@@ -125,7 +125,7 @@ const Manager = () => {
               </thead>
               <tbody>
                 {passwordArray.map((item, index) => (
-                  <tr key={index} className="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 border-gray-200">
+                   <tr key={index} className="bg-gray-900 even:bg-gray-800 text-white border-b border-gray-700">
                     <td className="px-6 py-3  text-yellow-100  ">
                       <div className='flex gap-2 justify-center'>
                         <a href={item.site} target='_blank'> {item.site}</a>
